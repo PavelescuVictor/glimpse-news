@@ -90,7 +90,7 @@
             }
         },
         mounted () {
-            axios.get(`http://newsapi.org/v2/top-headlines?country=us&apiKey=a292556e4f6f47efbd7797c342afed87`).then(response => {
+            axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=a292556e4f6f47efbd7797c342afed87`).then(response => {
                 this.news = response.data.articles;
                 this.totalResults = response.data.totalResults;
                 this.dataLoaded = true;
