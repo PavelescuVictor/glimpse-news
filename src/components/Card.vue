@@ -50,18 +50,18 @@
         transform: scale(1.01);
     }
 
-    .card-wrapper .card-image{
+    .card-image{
         height: 20vw;
         width: 100%;
     }
 
-    .card-wrapper .card-image img{
+    .card-image img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .card-wrapper .card-image #box-shadow{
+    .card-image #box-shadow{
         position: absolute;
         width: 100%;
         height: 20vw;
@@ -71,17 +71,17 @@
         cursor: pointer;
     }
 
-    .card-wrapper .card-image #box-shadow:hover {
+    .card-image #box-shadow:hover {
         box-shadow: inset 0px 0px 300px 28px rgba(0,0,0,0.3);
     }
 
-    .card-wrapper .card-image #box-shadow a{
+    .card-image #box-shadow a{
         display: block;
         width: 100%;
         height: 100%;
     }
 
-    .card-wrapper .card-date{
+    .card-date{
         position: absolute;
         align-self: flex-end;
         right: 10px;
@@ -100,11 +100,11 @@
         z-index: 2;
     }
 
-    .card-wrapper .card-date p{
+    .card-date p{
         color: white;
     }
 
-    .card-wrapper .card-content{
+    .card-content{
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -136,7 +136,7 @@
         padding: 0 0.5em;
     }
 
-    .card-content .card-btn{
+    .card-btn{
         align-self: center;
         padding: 0.3em 0.6em; 
         background: var(--color-purple);
@@ -144,12 +144,12 @@
         border-radius: 50px;
     }
 
-    .card-content .card-btn a{
+    .card-btn a{
         color: #262626;
         transition: color 0.2s ease-in , padding 0.2s ease-in-out;
     }
 
-    .card-content .card-btn a:hover{
+    .card-btn a:hover{
         color: rgba(255, 255, 255, 1);
         padding: 1em;
 
