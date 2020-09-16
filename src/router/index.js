@@ -18,13 +18,15 @@ const routes = [
         path: "/bookmarks",
         name: "bookmarks",
         component: () =>
-            import(/* webpackChunkName: "doctors" */ "../views/Bookmarks.vue"),
+            import(
+                /* webpackChunkName: "bookmarks" */ "../views/Bookmarks.vue"
+            ),
     },
     {
         path: "/about",
         name: "about",
         component: () =>
-            import(/* webpackChunkName: "lucrari" */ "../views/About.vue"),
+            import(/* webpackChunkName: "about" */ "../views/About.vue"),
     },
 ];
 
