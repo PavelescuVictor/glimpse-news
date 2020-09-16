@@ -2,7 +2,7 @@
 
 ## Project Description:
 
-Vue application use for continously presenting a flow of articles/news using NewsAPI and local weather data using OpenWeatherAPI
+Vue application used for continously presenting a flow of articles/news using NewsAPI and local weather data using OpenWeatherAPI
 Both API requires a key so the live preview is not gathering data from the open APIs.
 For the purpose of showing the application I've created an example with local data.
 
