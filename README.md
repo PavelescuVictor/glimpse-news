@@ -15,7 +15,7 @@ For the purpose of showing the application I've created an example with local da
   The API endpoints: 
   1. top-headlines,
   2. everything,
-  3. sources,
+  3. sources,  
   You can specify query parameters such as country, category, sources, q (keyword or a word to search for) etc.
   
 ### OpenWeatherAPI
